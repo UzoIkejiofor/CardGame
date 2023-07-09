@@ -1,0 +1,71 @@
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  /* body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 500%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity value as desired */
+    /* background-image: url("../img/CardGame.JPEG");
+    opacity: 0.9;
+    z-index: -1;
+  } */
+   
+  
+  /* Box Model Hack */
+  *{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  
+  h1{
+    text-align: justify;
+    font-size: 30px; /* Adjust the font size as desired */
+    font-weight: bold; /* Add the font-weight property */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  h2{
+    text-align: justify;
+    font-size: 30px; /* Adjust the font size as desired */
+    font-weight: bold; /* Add the font-weight property */
+    color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  h3 {
+    text-align: justify;
+    font-size: 30px; /* Adjust the font size as desired */
+    font-weight: bold; /* Add the font-weight property */
+    color: black;
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
