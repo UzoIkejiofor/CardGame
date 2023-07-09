@@ -7,7 +7,7 @@
     height: 10vh;
   }
   
-  /* body::before {
+  body::before {
     content: "";
     position: fixed;
     top: 0;
@@ -15,10 +15,10 @@
     width: 500%;
     height: 500%;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity value as desired */
-    /* background-image: url("../img/CardGame.JPEG");
+    background-image: url("../img/Casino.JPEG");
     opacity: 0.9;
     z-index: -1;
-  } */
+  } 
    
   
   /* Box Model Hack */
@@ -32,6 +32,7 @@
   img{
     display: block;
     margin: 0 auto;
+    align-items: left;
   }
   
   
@@ -42,8 +43,8 @@
     font-weight: bold; /* Add the font-weight property */
     color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     height: 10vh;
   }
   
@@ -53,8 +54,8 @@
     font-weight: bold; /* Add the font-weight property */
     color: black; 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     height: 10vh;
   }
   
